@@ -4,6 +4,7 @@
   "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
   "license": "MIT",
   "author": "Richard B. Kaufman López <richardbkaufman@gmail.com>",
+  "type": "module",
   "keywords": [
     "platzi"
   ],
