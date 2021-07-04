@@ -2,7 +2,9 @@ class AutoPlay {
 	constructor() {}
 
 	run(media) {
-		media.muted();
+		if (!media.muted) {
+			media.muted = true;
+		}
 		media.play();
 	}
 }

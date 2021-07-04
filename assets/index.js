@@ -7,7 +7,7 @@ const mutedButton = document.querySelector('#muted-btn');
 
 const config = {
 	element: videoElement,
-	// collectionplugins: [new AutoPlay()],
+	collectionplugins: [new AutoPlay()],
 };
 
 const handlePlayer = new MediaPlayer(config);
